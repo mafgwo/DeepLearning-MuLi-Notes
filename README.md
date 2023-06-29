@@ -39,7 +39,7 @@
 
 ---
 
-## <img src="./imgs/icon/motivation.png" width="25" /> 项目动机
+## <img src="./imgs/icon/motivation.png" width="25" />  项目动机
 
 《动手学习深度学习》是**李沐老师**（AWS 资深首席科学家，美国卡内基梅隆大学计算机系博士）主讲的一系列深度学习视频。本项目收集了我们在寒假期间学习《动手学习深度学习》过程中详细的**markdown笔记**和相关的**jupyter代码**。赠人玫瑰，手留余香，我们将所有的**markdown**笔记开源，希望在自己学习的同时，也对大家学习掌握李沐老师的《动手学习深度学习》有所帮助。
 
@@ -208,7 +208,7 @@
 <a href="https://github.com/Chigland"> <img src="./imgs/profile/ZhiTao_Wang.png"  width="80" /></a> 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODA5NzcxMyw5ODc3NTQyMzUsNjM0Mj
-kzNzE3LC02MzA3ODAzMTMsLTI0MDE1MzgxMSwtNjMwNzgwMzEz
-XX0=
+eyJoaXN0b3J5IjpbOTgxOTM5MDAzLDE0NDgwOTc3MTMsOTg3Nz
+U0MjM1LDYzNDI5MzcxNywtNjMwNzgwMzEzLC0yNDAxNTM4MTEs
+LTYzMDc4MDMxM119
 -->
