@@ -369,3 +369,6 @@ d2l.train_ch3(net,train_iter,test_iter,loss,num_epochs,trainer)
 ##### Q8:softmax可解释吗？
 
 > 单纯softmax是可解释的，可以在统计书籍中找到相关的解释。
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNDIyOTk3MTQ2XX0=
+-->
