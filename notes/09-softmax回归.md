@@ -130,9 +130,9 @@ $$
 
 #### 2.1 L2 Loss
 
-![](http://latex.codecogs.com/gif.latex?\\
+$$
 l(y,y^{'})=\frac{1}{2}(y-y^{'})^2
-)
+$$
 
 <div align="center">
     <img src="../imgs/09/09-05.png" alt="image" align="center"width="500"/>
@@ -142,9 +142,9 @@ l(y,y^{'})=\frac{1}{2}(y-y^{'})^2
 
 #### 2.2 L1 Loss
 
-![](http://latex.codecogs.com/gif.latex?\\
+$$
 l(y,y^{'})=\lvert y-y^{'}\rvert
-)
+$$
 
 <div align="center">
     <img src="../imgs/09/09-06.png" alt="image" align="center"width="500"/>
@@ -350,7 +350,7 @@ d2l.train_ch3(net,train_iter,test_iter,loss,num_epochs,trainer)
 
 > 实际上使用哪一种熵的效果区别不大，所以哪种简单就用哪种
 
-##### Q4:![](http://latex.codecogs.com/gif.latex?\\y*log\hat{y})   为什么我们只关心正确类，而不关心不正确的类呢？
+##### Q4:$$y*log\hat{y})   为什么我们只关心正确类，而不关心不正确的类呢？
 
 > 并不是不关心，而是不正确的的类标号为零，所以算式中不体现，如果使用softlabel策略，就会体现出不正确的类。
 
@@ -370,5 +370,5 @@ d2l.train_ch3(net,train_iter,test_iter,loss,num_epochs,trainer)
 
 > 单纯softmax是可解释的，可以在统计书籍中找到相关的解释。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MzYxNTI3Miw0MjI5OTcxNDZdfQ==
+eyJoaXN0b3J5IjpbMTk3NDc5NjI0OSw0MjI5OTcxNDZdfQ==
 -->
