@@ -38,7 +38,7 @@
 </div>
 
 
-
+<img src="./imgs/icon/motivation.png" width="25" />
 
 ---
 
@@ -211,6 +211,6 @@
 <a href="https://github.com/Chigland"> <img src="./imgs/profile/ZhiTao_Wang.png"  width="80" /></a> 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDc4MDMxMywtMjQwMTUzODExLC02Mz
-A3ODAzMTNdfQ==
+eyJoaXN0b3J5IjpbOTg3NzU0MjM1LC02MzA3ODAzMTMsLTI0MD
+E1MzgxMSwtNjMwNzgwMzEzXX0=
 -->
