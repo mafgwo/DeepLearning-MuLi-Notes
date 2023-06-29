@@ -160,3 +160,6 @@ train_ch6(net, train_iter, test_iter, num_epochs, lr, d2l.try_gpu())
 - 为了构造高性能的卷积神经网络，我们通常对卷积层进行排列，逐渐降低其表示的空间分辨率，同时增加通道数。
 - 在传统的卷积神经网络中，卷积块编码得到的表征在输出之前需由一个或多个全连接层进行处理。
 - LeNet是最早发布的卷积神经网络之一（80年代）
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIwNzk4NDk0NTFdfQ==
+-->
