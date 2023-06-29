@@ -57,10 +57,10 @@
 
 - 对类别进行一位有效编码
 
-  ![](http://latex.codecogs.com/gif.latex?\\
+$$$
   y=[y_{1},y_{2},...,y_{n}]^{T}
   )
-  ![](http://latex.codecogs.com/gif.latex?\\\
+$$$\
   y_{i}=\begin{cases}
   1&i=y\\
   2&otherwise
@@ -70,7 +70,7 @@
 - 使用均方损失训练
 
 - 最大值为预测
-  ![](http://latex.codecogs.com/gif.latex?\\
+$$$
   \hat{y}=\underset {i}{argmax}\quad o^{i}
   )
 ##### 无校验比例
@@ -78,23 +78,23 @@
 - 对类别进行一位有效编码
 
 - 最大值为预测
-  ![](http://latex.codecogs.com/gif.latex?\\
+$$$
   \hat{y}=\underset {i}{argmax}\quad o^{i}
   )
   
 - 需要更置信的识别正确类（大余量）
-  ![](http://latex.codecogs.com/gif.latex?\\
+$$$
   o_y-o_i\geq\Delta(y,i)
   )
 
 ##### 校验比例
 
 - 输出匹配概率（非负，和为1）
-  ![](http://latex.codecogs.com/gif.latex?\\
+$$$
   \hat{y}=softmax(o)
   )
 
-  ![](http://latex.codecogs.com/gif.latex?\\
+$$$
   \hat{y_i}=\frac{exp(o_i)}{\sum_{k} exp(o_k)}
   )
 
@@ -107,12 +107,12 @@
 - 交叉熵用来衡量两个概率的区别$H(p,q)=\sum_{i} -p_{i}log(q_i)$
 
 - 将它作为损失
-  ![](http://latex.codecogs.com/gif.latex?\\
+$$$
   l(y,\hat{y})=-\sum_{i}y_{i}log\hat{y_{i}}=-log\hat{y_y}
   )
   
 - 其梯度是真实概率和预测概率的区别
-  ![](http://latex.codecogs.com/gif.latex?\\
+$$$
   \partial_{o_{i}}l(y,\hat{y})=softmax(o)_{i}-y_{i}
   )
 
@@ -370,5 +370,5 @@ d2l.train_ch3(net,train_iter,test_iter,loss,num_epochs,trainer)
 
 > 单纯softmax是可解释的，可以在统计书籍中找到相关的解释。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyOTk3MTQ2XX0=
+eyJoaXN0b3J5IjpbLTEzODA4OTQzNSw0MjI5OTcxNDZdfQ==
 -->
