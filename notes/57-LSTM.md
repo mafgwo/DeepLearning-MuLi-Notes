@@ -190,3 +190,6 @@ d2l.train_ch8(model, train_iter, vocab, lr, num_epochs, device)
 > 取决于框架和库，没法具体算
 
  
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTA5NjE3NTc1MF19
+-->
