@@ -1,6 +1,8 @@
 ### 1.LeNet卷积神经网络
 
+
 #### 1.1 手写数字识别
+
 
 - LeNet网络最早是为了应用于手写数字的识别应用。
 - 应用背景：
@@ -8,9 +10,12 @@
   - 人们希望可以用支票自动取钱
 - 该模型在80年代末的银行被真正的部署
 
+
 <img src="../imgs/23/23-01.png" alt="image" width="500" />
 
+
 #### 1.2 MNIST
+
 
 - LeNet所使用的数据集
 - 50，000个训练数据
@@ -18,23 +23,32 @@
 - 图像大小为28*28
 - 10类
 
+
 <img src="../imgs/23/23-02.png" alt="image" width="500" />
+
 
 #### 1.3 LeNet的具体模型
 
+
 <img src="../imgs/23/23-03.png" alt="image" width="1000" />
 
+
 #### 1.4 总结
+
 
 - LeNet是早期成功的神经网络
 - 先使用卷积层来学习图片空间信息
 - 然后使用全连接层来转换到类别空间
 
+
 ### 2.代码部分
+
 
 #### 2.1 定义网络结构和准备工作
 
+
 - 导入所需的库
+
 
 ```python
 #导入所需的库
@@ -43,7 +57,9 @@ from torch import nn
 from d2l import torch as d2l
 ```
 
+
 - 定义网络结构（具体可参考上文“具体模型”的图）
+
 
 ```python
 #定义网络结构
@@ -58,7 +74,9 @@ net = nn.Sequential(
     nn.Linear(84, 10))
 ```
 
+
 - 查看每一层数据的变化情况
+
 
 ```python
 #把每一层数据的shape给打印出来
@@ -68,16 +86,21 @@ for layer in net:
     print(layer.__class__.__name__,'output shape: \t',X.shape)#打印
 ```
 
+
 #### 2.2 模型训练
 
+
 - 下载数据集
+
 
 ```python
 batch_size = 256#批量大小
 train_iter, test_iter = d2l.load_data_fashion_mnist(batch_size=batch_size)#下载或加载数据集，得到训练和测试集的迭代对象
 ```
 
+
 - 使用GPU计算模型在数据集上的精度
+
 
 ```python
 def evaluate_accuracy_gpu(net, data_iter, device=None): #@save
@@ -100,7 +123,9 @@ def evaluate_accuracy_gpu(net, data_iter, device=None): #@save
     return metric[0] / metric[1]
 ```
 
+
 - 训练函数
+
 
 ```python
 def train_ch6(net, train_iter, test_iter, num_epochs, lr, device):
@@ -144,16 +169,21 @@ def train_ch6(net, train_iter, test_iter, num_epochs, lr, device):
           f'on {str(device)}')
 ```
 
+
 - 运行
+
 
 ```python
 lr, num_epochs = 0.9, 10
 train_ch6(net, train_iter, test_iter, num_epochs, lr, d2l.try_gpu())
 ```
 
+
 <img src="../imgs/23/23-04.png" alt="image" width="300" />
 
+
 #### 2.3 总结
+
 
 - 卷积神经网络（CNN）是一类使用卷积层的网络。
 - 在卷积神经网络中，我们组合使用卷积层、非线性激活函数和汇聚层。
@@ -161,5 +191,5 @@ train_ch6(net, train_iter, test_iter, num_epochs, lr, d2l.try_gpu())
 - 在传统的卷积神经网络中，卷积块编码得到的表征在输出之前需由一个或多个全连接层进行处理。
 - LeNet是最早发布的卷积神经网络之一（80年代）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk4NDk0NTFdfQ==
+eyJoaXN0b3J5IjpbLTY4MDI0MDg4MywtMjA3OTg0OTQ1MV19
 -->
