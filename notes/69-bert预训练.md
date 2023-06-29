@@ -305,3 +305,6 @@ class BERTModel(nn.Module):
 ##### Q3：使用BERT large时显存不足，有什么方法吗？
 
 > 单机多卡，模型并行，或改用小模型
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODgxOTk4NzQ4XX0=
+-->
