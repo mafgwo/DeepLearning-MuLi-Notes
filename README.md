@@ -56,7 +56,7 @@
 
 <img src="./imgs/icon/intro.png" width="25" />
 
-## ![](./imgs/icon/intro.png?width=25)  课程简介
+## ![](./imgs/icon/intro.png =25)  课程简介
 
 
 通常我们提到深度学习，常常会忘记深度学习只是机器学习的一小部分，而认为它是独立于机器学习的单独模块。这是因为机器学习作为一门历史更悠久的学科，在深度学习没有问世之前，在现实世界的应用范围很窄。在语音识别、计算机视觉、自然语言处理等领域，由于需要大量的领域知识并且现实情况异常复杂，机器学习往往只是解决这些领域问题方案中的一小部分。但是就在过去的几年里，深度学习的问世和应用给世界带来了惊喜，推动了计算机视觉、自然语言处理、自动语音识别、强化学习和统计建模等领域的快速发展，并逐渐引领潮流，在世界掀起了一波人工智能的革命。
@@ -211,7 +211,7 @@
 <a href="https://github.com/Chigland"> <img src="./imgs/profile/ZhiTao_Wang.png"  width="80" /></a> 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTg0NTAzMDksMTU4MTA5NDE1OSwxNT
+eyJoaXN0b3J5IjpbLTE1NzUzNTM2MzYsMTU4MTA5NDE1OSwxNT
 gxMDk0MTU5LDE1ODEwOTQxNTksOTgxOTM5MDAzLDk4MTkzOTAw
 MywxNDQ4MDk3NzEzLDk4Nzc1NDIzNSw2MzQyOTM3MTcsLTYzMD
 c4MDMxMywtMjQwMTUzODExLC02MzA3ODAzMTNdfQ==
