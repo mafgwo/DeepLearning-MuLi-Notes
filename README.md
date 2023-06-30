@@ -52,8 +52,6 @@
 
 本项目所用徽章来自互联网，如侵犯了您的图片版权请联系我们删除，谢谢。
 
-
-
 <img src="./imgs/icon/intro.png" width="25" />
 
 ## ![](./imgs/icon/intro.png =x25)  课程简介
@@ -211,8 +209,9 @@
 <a href="https://github.com/Chigland"> <img src="./imgs/profile/ZhiTao_Wang.png"  width="80" /></a> 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM5OTk0MjQsMTU4MTA5NDE1OSwxNT
-gxMDk0MTU5LDE1ODEwOTQxNTksOTgxOTM5MDAzLDk4MTkzOTAw
-MywxNDQ4MDk3NzEzLDk4Nzc1NDIzNSw2MzQyOTM3MTcsLTYzMD
-c4MDMxMywtMjQwMTUzODExLC02MzA3ODAzMTNdfQ==
+eyJoaXN0b3J5IjpbMTYwNTY1NDgsLTE1MjM5OTk0MjQsMTU4MT
+A5NDE1OSwxNTgxMDk0MTU5LDE1ODEwOTQxNTksOTgxOTM5MDAz
+LDk4MTkzOTAwMywxNDQ4MDk3NzEzLDk4Nzc1NDIzNSw2MzQyOT
+M3MTcsLTYzMDc4MDMxMywtMjQwMTUzODExLC02MzA3ODAzMTNd
+fQ==
 -->
