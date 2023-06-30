@@ -1,4 +1,4 @@
-
+[TOC]
 <p align="center">
 <h1 align="center"> <img src="./imgs/icon/ai.png" width="30" />《动手学习深度学习》</h1>
 </p>
@@ -208,7 +208,7 @@
 <a href="https://github.com/Chigland"> <img src="./imgs/profile/ZhiTao_Wang.png"  width="80" /></a> 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxOTM5MDAzLDk4MTkzOTAwMywxNDQ4MD
-k3NzEzLDk4Nzc1NDIzNSw2MzQyOTM3MTcsLTYzMDc4MDMxMywt
-MjQwMTUzODExLC02MzA3ODAzMTNdfQ==
+eyJoaXN0b3J5IjpbMTU4MTA5NDE1OSw5ODE5MzkwMDMsOTgxOT
+M5MDAzLDE0NDgwOTc3MTMsOTg3NzU0MjM1LDYzNDI5MzcxNywt
+NjMwNzgwMzEzLC0yNDAxNTM4MTEsLTYzMDc4MDMxM119
 -->
